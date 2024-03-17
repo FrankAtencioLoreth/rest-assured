@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.tests.v1.PostUserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-11T01:32:47" hostname="MRCAT" time="3.534">
+  <properties/>
+  <testcase name="CREATE user" classname="app.tests.v1.PostUserTest" time="3.534"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+HTTP/1.1 200 OK
+Date: Mon, 11 Mar 2024 01:32:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710120769&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2B%2B0zIqcXEpG2aTB%2FwZDVi3YxdJWlM73OzUJzhO9EYQc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710120769&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2B%2B0zIqcXEpG2aTB%2FwZDVi3YxdJWlM73OzUJzhO9EYQc%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8627caf6eefd31e4-MIA
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

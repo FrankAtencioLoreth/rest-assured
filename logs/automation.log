@@ -1,0 +1,78 @@
+2024-03-10T11:48:21,650 [Test worker] INFO  (ReqRestTest.java:42) - Start configuration
+2024-03-10T11:48:22,137 [Test worker] INFO  (ReqRestTest.java:47) - Finish configuration
+2024-03-10T11:48:22,186 [Test worker] INFO  (ReqRestTest.java:57) - Running auth test
+2024-03-10T11:49:31,339 [Test worker] INFO  (ReqRestTest.java:42) - Start configuration
+2024-03-10T11:49:31,784 [Test worker] INFO  (ReqRestTest.java:47) - Finish configuration
+2024-03-10T11:49:31,836 [Test worker] INFO  (ReqRestTest.java:61) - Running auth test: email eve.holt@reqres.in and password cityslicka
+2024-03-10T11:53:25,192 [Test worker] INFO  (ReqRestTest.java:42) - Start configuration
+2024-03-10T11:53:25,593 [Test worker] INFO  (ReqRestTest.java:47) - Finish configuration
+2024-03-10T11:53:25,652 [Test worker] INFO  (ReqRestTest.java:61) - Running auth test: email eve.holt@reqres.in and password cityslicka
+2024-03-10T12:03:17,946 [Test worker] INFO  (ReqRestTest.java:45) - Start configuration
+2024-03-10T12:03:18,307 [Test worker] INFO  (ReqRestTest.java:47) - Finish configuration
+2024-03-10T12:03:18,348 [Test worker] INFO  (ReqRestTest.java:271) - Running deserialization test
+2024-03-10T12:03:18,535 [Test worker] INFO  (ReqRestTest.java:75) - Running auth test: email eve.holt@reqres.in and password cityslicka
+2024-03-10T12:03:20,634 [Test worker] INFO  (ReqRestTest.java:248) - Running serialization test
+2024-03-10T12:03:20,648 [Test worker] INFO  (ReqRestTest.java:151) - Running get all users test
+2024-03-10T12:03:21,244 [Test worker] INFO  (ReqRestTest.java:125) - Running register user test
+2024-03-10T12:03:22,208 [Test worker] INFO  (ReqRestTest.java:216) - Running put user test
+2024-03-10T12:03:22,794 [Test worker] INFO  (ReqRestTest.java:89) - Running get single user test
+2024-03-10T12:03:23,134 [Test worker] INFO  (ReqRestTest.java:102) - Running create user test
+2024-03-10T12:03:23,738 [Test worker] INFO  (ReqRestTest.java:175) - Running get all users test 2
+2024-03-10T12:03:24,304 [Test worker] INFO  (ReqRestTest.java:197) - Running patch user test
+2024-03-10T12:03:24,902 [Test worker] INFO  (ReqRestTest.java:236) - Running delete user test
+2024-03-10T12:23:35,990 [Test worker] INFO  (ReqRestTest.java:47) - Start configuration
+2024-03-10T12:23:36,365 [Test worker] INFO  (ReqRestTest.java:49) - Finish configuration
+2024-03-10T12:23:36,405 [Test worker] INFO  (ReqRestTest.java:282) - Running deserialization test
+2024-03-10T12:23:36,593 [Test worker] INFO  (ReqRestTest.java:84) - Running auth test: email eve.holt@reqres.in and password cityslicka
+2024-03-10T12:23:38,672 [Test worker] INFO  (ReqRestTest.java:259) - Running serialization test
+2024-03-10T12:23:38,706 [Test worker] INFO  (ReqRestTest.java:162) - Running get all users test
+2024-03-10T12:23:39,018 [Test worker] INFO  (ReqRestTest.java:136) - Running register user test
+2024-03-10T12:23:39,595 [Test worker] INFO  (ReqRestTest.java:227) - Running put user test
+2024-03-10T12:23:40,182 [Test worker] INFO  (ReqRestTest.java:99) - Running get single user test
+2024-03-10T12:23:40,465 [Test worker] INFO  (ReqRestTest.java:113) - Running create user test
+2024-03-10T12:23:41,017 [Test worker] INFO  (ReqRestTest.java:186) - Running get all users test 2
+2024-03-10T12:23:41,434 [Test worker] INFO  (ReqRestTest.java:208) - Running patch user test
+2024-03-10T12:23:42,027 [Test worker] INFO  (ReqRestTest.java:247) - Running delete user test
+2024-03-10T12:39:40,912 [Test worker] INFO  (BaseTest.java:30) - Start configuration
+2024-03-10T12:39:41,292 [Test worker] INFO  (BaseTest.java:32) - Finish configuration
+2024-03-10T12:39:41,322 [Test worker] INFO  (SerializationDesetializationTest.java:44) - Running deserialization test
+2024-03-10T12:39:41,471 [Test worker] INFO  (SerializationDesetializationTest.java:21) - Running serialization test
+2024-03-10T12:48:07,829 [Test worker] INFO  (BaseTest.java:30) - Start configuration
+2024-03-10T12:48:08,226 [Test worker] INFO  (BaseTest.java:32) - Finish configuration
+2024-03-10T12:48:08,267 [Test worker] INFO  (AuthTest.java:27) - Running auth test: email eve.holt@reqres.in and password cityslicka
+2024-03-10T12:48:10,450 [Test worker] INFO  (DeleteUserTest.java:20) - Running delete user test
+2024-03-10T12:48:11,008 [Test worker] INFO  (GetUserTest.java:42) - Running get all users test
+2024-03-10T12:48:11,283 [Test worker] INFO  (GetUserTest.java:28) - Running get single user test
+2024-03-10T12:48:11,625 [Test worker] INFO  (GetUserTest.java:66) - Running get all users test 2
+2024-03-10T12:48:12,103 [Test worker] INFO  (PostUserTest.java:48) - Running register user test
+2024-03-10T12:48:12,717 [Test worker] INFO  (PostUserTest.java:25) - Running create user test
+2024-03-10T12:48:13,296 [Test worker] INFO  (SerializationDesetializationTest.java:44) - Running deserialization test
+2024-03-10T12:48:13,301 [Test worker] INFO  (SerializationDesetializationTest.java:21) - Running serialization test
+2024-03-10T12:48:13,309 [Test worker] INFO  (UpdateUserTest.java:44) - Running put user test
+2024-03-10T12:48:13,872 [Test worker] INFO  (UpdateUserTest.java:25) - Running patch user test
+2024-03-10T12:48:59,047 [Test worker] INFO  (BaseTest.java:30) - Start configuration
+2024-03-10T12:48:59,427 [Test worker] INFO  (BaseTest.java:32) - Finish configuration
+2024-03-10T12:48:59,475 [Test worker] INFO  (AuthTest.java:27) - Running auth test: email eve.holt@reqres.in and password cityslicka
+2024-03-10T12:49:01,726 [Test worker] INFO  (DeleteUserTest.java:20) - Running delete user test
+2024-03-10T12:49:02,315 [Test worker] INFO  (GetUserTest.java:42) - Running get all users test
+2024-03-10T12:49:02,591 [Test worker] INFO  (GetUserTest.java:28) - Running get single user test
+2024-03-10T12:49:02,907 [Test worker] INFO  (GetUserTest.java:66) - Running get all users test 2
+2024-03-10T12:49:03,396 [Test worker] INFO  (PostUserTest.java:48) - Running register user test
+2024-03-10T12:49:04,006 [Test worker] INFO  (PostUserTest.java:25) - Running create user test
+2024-03-10T12:49:04,544 [Test worker] INFO  (SerializationDesetializationTest.java:44) - Running deserialization test
+2024-03-10T12:49:04,549 [Test worker] INFO  (SerializationDesetializationTest.java:21) - Running serialization test
+2024-03-10T12:49:04,557 [Test worker] INFO  (UpdateUserTest.java:44) - Running put user test
+2024-03-10T12:49:05,151 [Test worker] INFO  (UpdateUserTest.java:25) - Running patch user test
+2024-03-10T12:53:20,592 [Test worker] INFO  (BaseTest.java:36) - Start configuration
+2024-03-10T12:53:20,972 [Test worker] INFO  (BaseTest.java:38) - Finish configuration
+2024-03-10T12:53:21,011 [Test worker] INFO  (AuthTest.java:27) - Running auth test: email eve.holt@reqres.in and password cityslicka
+2024-03-10T12:53:23,195 [Test worker] INFO  (DeleteUserTest.java:20) - Running delete user test
+2024-03-10T12:53:23,785 [Test worker] INFO  (GetUserTest.java:42) - Running get all users test
+2024-03-10T12:53:24,049 [Test worker] INFO  (GetUserTest.java:28) - Running get single user test
+2024-03-10T12:53:24,369 [Test worker] INFO  (GetUserTest.java:66) - Running get all users test 2
+2024-03-10T12:53:24,856 [Test worker] INFO  (PostUserTest.java:48) - Running register user test
+2024-03-10T12:53:25,564 [Test worker] INFO  (PostUserTest.java:25) - Running create user test
+2024-03-10T12:53:26,112 [Test worker] INFO  (SerializationDesetializationTest.java:44) - Running deserialization test
+2024-03-10T12:53:26,118 [Test worker] INFO  (SerializationDesetializationTest.java:21) - Running serialization test
+2024-03-10T12:53:26,125 [Test worker] INFO  (UpdateUserTest.java:44) - Running put user test
+2024-03-10T12:53:26,728 [Test worker] INFO  (UpdateUserTest.java:25) - Running patch user test

@@ -1,0 +1,78 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group = 'starter'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
+    testImplementation group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.16.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.22.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.22.1'
+    implementation 'org.slf4j:slf4j-simple:1.7.5'
+    //qameta allure
+    testImplementation group: 'io.qameta.allure', name: 'allure-junit5', version: '2.25.0'
+    testImplementation platform("io.qameta.allure:allure-bom:2.25.0")
+    testImplementation group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.25.0'
+    implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+    testImplementation 'junit:junit:4.13.1'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging.showStandardStreams = true
+}
+
+//gradle clean taskName
+//gradle allureServ
+task authenticate(type: Test){
+    useJUnitPlatform {
+        includeTags 'auth'
+    }
+    testLogging.showStandardStreams = true
+}
+
+task delete(type: Test){
+    useJUnitPlatform {
+        includeTags 'delete'
+    }
+    testLogging.showStandardStreams = true
+}
+
+task get(type: Test){
+    useJUnitPlatform {
+        includeTags 'get'
+    }
+    testLogging.showStandardStreams = true
+}
+
+task post(type: Test){
+    useJUnitPlatform {
+        includeTags 'post', 'createNewUser'
+    }
+    testLogging.showStandardStreams = true
+}
+
+task update(type: Test){
+    useJUnitPlatform {
+        includeTags 'put'
+    }
+    testLogging.showStandardStreams = true
+}
+
+task regression(type: Test){
+    useJUnitPlatform {
+        includeTags 'regression', 'auth'
+        excludeTags 'test'
+    }
+    testLogging.showStandardStreams = true
+}
